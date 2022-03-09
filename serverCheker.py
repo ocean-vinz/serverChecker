@@ -4,7 +4,7 @@ import os
 
 
 SERVER=[]
-PORT=22 #which port you want to connect to
+PORT=80 #which port you want to connect to
 CONNTIMEOUT=5 #Connection timeout in sec, because the default is none and will hang if not set
 SITEOK=0
 TOTALSITE=0
@@ -34,7 +34,7 @@ if __name__ == "__main__":
                 print(f"{site} is running!")
                 SITEOK+=1
             else:
-                print(f'There is NO response after {CONNTIMEOUT} sec for server {site}')
+                print(f'There is NO response for server {site}')
         except:
             print('something went terribly wrong with the function')
         finally:
