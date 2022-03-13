@@ -4,7 +4,7 @@ import os
 
 
 SERVER=[]
-PORT=80 #which port you want to connect to
+PORT=22 #which port you want to connect to
 CONNTIMEOUT=5 #Connection timeout in sec, because the default is none and will hang if not set
 SITEOK=0
 TOTALSITE=0
